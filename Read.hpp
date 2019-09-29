@@ -21,8 +21,8 @@ class Read {
      */
     
 protected:
-    std::vector<std::string> read_lines;               //Lines from document where KWIC will be applied
-    std::vector<std::string> stop_words;               //List of stop words
+    std::vector<std::string> read_lines {};               //Lines from document where KWIC will be applied
+    std::vector<std::string> stop_words {};               //List of stop words
     
     const std::ifstream mainFileName;                    //ifstream for first file's name -> Read only
     const std::ifstream stopWordsFileName;               //ifstream for stop words file name -> Read only

@@ -28,6 +28,8 @@ public:
     //Destructor
     ~ReadFromText();
     
+    
+    
 };
 
 #endif /* ReadFromText_hpp */

@@ -13,10 +13,20 @@
 #include <string>
 
 class Storage_Manager {
-    
+    //Core data
 protected:
     std::vector<std::string> data;
     
+public:
+    /*
+     BUILDING THE CLASS
+     */
+    
+    //Constructors
+    Storage_Manager();               //No args Constructor
+    
+    //Destructor
+    ~Storage_Manager();
     
 };
 
